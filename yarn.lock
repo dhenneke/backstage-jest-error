@@ -1199,6 +1199,28 @@
     remark-gfm "^1.0.0"
     zen-observable "^0.8.15"
 
+"@backstage/dev-utils@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@backstage/dev-utils/-/dev-utils-0.1.7.tgz#ca07321caee5e610e90a79f9ed891d366e21c9aa"
+  integrity sha512-7rnJ5Ncph8ExxpelYcLU8orFygHMfvhzcQLTbqszKGUSbbRa4c9rwO2Ec0nwVO+obu3WUd1wd6cGWCFIbo12nA==
+  dependencies:
+    "@backstage/catalog-model" "^0.6.0"
+    "@backstage/core" "^0.4.3"
+    "@backstage/plugin-catalog" "^0.2.9"
+    "@backstage/test-utils" "^0.1.5"
+    "@backstage/theme" "^0.2.2"
+    "@material-ui/core" "^4.11.0"
+    "@material-ui/icons" "^4.9.1"
+    "@testing-library/jest-dom" "^5.10.1"
+    "@testing-library/react" "^10.4.1"
+    "@testing-library/user-event" "^12.0.7"
+    "@types/react" "^16.9"
+    react "^16.12.0"
+    react-dom "^16.12.0"
+    react-hot-loader "^4.12.21"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+
 "@backstage/integration@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-0.1.4.tgz#1ce7243842b3b7a15f9e5b45968b61918bbd061b"
@@ -12972,7 +12994,7 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-msw@^0.21.3:
+msw@^0.21.2, msw@^0.21.3:
   version "0.21.3"
   resolved "https://registry.yarnpkg.com/msw/-/msw-0.21.3.tgz#d073842f9570a08f4041806a2c7303a9b8494602"
   integrity sha512-voPc/EJsjarvi454vSEuozZQQqLG4AUHT6qQL5Ah47lq7sGCpc7icByeUlfvEj5+MvaugN0c7JwXyCa2rxu8cA==

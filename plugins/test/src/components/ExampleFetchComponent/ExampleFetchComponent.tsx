@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Table, TableColumn, Progress, useApi } from '@backstage/core';
 import Alert from '@material-ui/lab/Alert';
 import { useAsync } from 'react-use';
+import { catalogApiRef } from '@backstage/plugin-catalog';
 
 const useStyles = makeStyles({
   avatar: {
@@ -74,6 +75,9 @@ export const DenseTable = ({ users }: DenseTableProps) => {
 };
 
 const ExampleFetchComponent = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const catalogApi = useApi(catalogApiRef);
+
   const { value, loading, error } = useAsync(async (): Promise<User[]> => {
     const response = await fetch('https://randomuser.me/api/?results=20');
     const data = await response.json();
